@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confeitaria Delícia</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -12,10 +16,10 @@
             <h1>Confeitaria Delícia</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Início</a></li>
+                    <li><a href="/">Início</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Cardápio</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="/contatos">Contato</a></li>
                 </ul>
             </nav>
         </div>
